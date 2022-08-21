@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
 
         webView.loadUrl("https://ru.savefrom.net/#url=" + youtubeUrl);
 
+        /*
+
         WebViewClient webViewClient = new WebViewClient() {
 
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
@@ -59,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         };
+
+         */
 
         webView.setWebChromeClient(webChromeClient);
     }
